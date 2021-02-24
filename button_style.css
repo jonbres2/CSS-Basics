@@ -1,0 +1,33 @@
+button.search {
+    border-color: teal;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    color: teal;
+    background-color: white;
+    font-weight: bold;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px
+}
+
+button.plus {
+    border-radius: 50px;
+    border: 0px;
+    color: white;
+    font-size: 20pt;
+    background-color: mediumturquoise;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+button.create {
+    border-color: black;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 17px;
+    box-shadow: 5px 5px black;
+    padding: 5px;
+    width: 200px;
+}
