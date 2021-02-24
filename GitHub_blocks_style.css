@@ -1,0 +1,50 @@
+.main_container{
+    display: flex;
+    background-color: tan;
+    height: 650px;
+    width: 700px;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid_header{
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header_images{
+    height: 70px;
+    width: 120px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.cat_grid{
+    display: flex;
+    height: 525px;
+    width: 700px;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.blue_cat{
+    background-color: lightskyblue;
+    width: 110px;
+    height: 110px;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 2px;
+}
+
+.red_cat{
+    background-color: salmon;
+    width: 110px;
+    height: 110px;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 2px
+}
