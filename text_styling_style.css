@@ -1,0 +1,27 @@
+h1 {
+    color: white;
+    background-color: blueviolet;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    color: lawngreen;
+    background-color: black;
+    font-weight: lighter;
+}
+
+h3 {
+    color: white;
+    background-color: brown;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h4 {
+    color: teal;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
