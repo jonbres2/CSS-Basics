@@ -3,8 +3,8 @@ div {
     color: white;
     padding: 10px;
     display: flex; 
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     font-family: "Montserrat", sans-serif;
 }

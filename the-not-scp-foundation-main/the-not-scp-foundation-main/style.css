@@ -1,0 +1,203 @@
+/* CSS Reset */
+/* gives more uniform spacing across different browsers */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Viga', sans-serif;
+    /* this outline elements while we're working! */
+    /* TODO - comment out when done */
+    /* outline: 1px dotted red; */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.header {
+    height: 150px;
+    background-color: black;
+    background: linear-gradient(#000 40%, #673d3d 90%);
+}
+
+.container {
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+}
+
+.right form {
+    text-align: right;
+}
+
+.left img {
+    margin-right: 20px;
+}
+
+.left h1 {
+    color: #fff;
+}
+
+.left h4 {
+    color: #f0f0c0;
+}
+
+.right p {
+    color: #ddd;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.right a {
+    color: #fff;
+}
+
+.right input {
+    background-color: #300;
+    border-radius: 5px;
+    border: 1px solid salmon;
+    padding:3px;
+}
+
+.right input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.right button {
+    background-color: #633333;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid salmon;
+}
+
+.nav {
+    height: 30px;
+    background-color: grey;
+    background: linear-gradient(#535353, #3b3b3b);
+}
+
+.nav ul {
+    line-height: 30px; /* can center vertically 1 line of text */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav ul li {
+    color: #fff;
+    list-style-type: none;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.min-height-500 {
+    min-height: 500px;
+}
+
+.flex {
+    display: flex;
+}
+
+.col-1 {
+    flex: 1;
+    height: inherit;
+}
+
+.col-3 {
+    flex: 3;
+    height: inherit;
+}
+
+.box {
+    border: 1px solid #000;
+    border-radius: 10px;
+    min-height: 40px;
+    margin: 20px 0;
+    box-shadow: 4px 4px 4px #aaa;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+.social-media-box {
+    background-color: #e5e5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.link-box {
+    padding: 10px;
+}
+
+.link-box a {
+    color: #c93341;
+}
+
+.link-box .subheader {
+    color: darkred;
+    margin: 10px 0;
+    border-bottom: 1px solid darkred;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.darkred {
+    color: darkred !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.is-line {
+    border: 1px solid #999;
+    height: 0px;
+    box-shadow: 4px 4px 4px #aaa;
+    margin: 20px 0;
+}
+
+.cupid {
+    padding: 20px;
+}
+
+.cupid .left {
+    flex-direction: column;
+}
+
+.cupid .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cupid img {
+    height: 120px;
+}
+
+.smol-text {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
